@@ -30,7 +30,7 @@ Lyrics Finder Backend serves as a secure middleware between a frontend applicati
 
 ## Live Deployment
 
-This project is live and deployed on [Render](https://render.com).
+Check out the [live demo here](https://jasr1.github.io/lyrics-finder/) to experience the app in action.
 
 You can access the live backend here:  
 **https://lyrics-finder-backend.onrender.com**
