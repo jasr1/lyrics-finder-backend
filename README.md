@@ -30,12 +30,20 @@ Lyrics Finder Backend serves as a secure middleware between a frontend applicati
 
 ## Live Deployment
 
-> ⚠️ This project is currently intended for local development. Deployment-ready for platforms such as:
-- [Render](https://render.com)
-- [Railway](https://railway.app)
-- [Fly.io](https://fly.io)
+This project is live and deployed on [Render](https://render.com).
 
-Once deployed, your frontend can use it by replacing `localhost:3000` with the deployed URL.
+You can access the live backend here:  
+**https://lyrics-finder-backend.onrender.com**
+
+You can use this URL in your frontend application by replacing:
+```js
+http://localhost:3000/lyrics?search=yourQuery
+```
+with:
+```js
+https://lyrics-finder-backend.onrender.com/lyrics?search=yourQuery
+```
+The service is free-tier hosted, so it may experience a brief cold start delay on the first request after inactivity.
 
 
 ## Technologies Used
@@ -45,6 +53,7 @@ Once deployed, your frontend can use it by replacing `localhost:3000` with the d
 - **Axios**
 - **dotenv**
 - **CORS**
+- **Render** (for deployment)
 
 
 ## Features
